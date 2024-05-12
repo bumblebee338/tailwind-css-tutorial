@@ -87,9 +87,9 @@ export default function Header() {
                     >
                         <MenuItems
                             anchor="bottom end"
-                            className="bg-white flex flex-col w-48 origin-top-right absolute mt-2 rounded-sm shadow-md"
+                            className="bg-white flex flex-col w-48 origin-top-right absolute mt-2 rounded-sm shadow-md cursor-pion"
                         >
-                            <MenuItem className="hover:bg-neutral-200 p-2 cursor-pointer">
+                            <MenuItem className="hover:bg-neutral-200 p-2">
                                 <button onClick={() => navigate("/profile")}>
                                     Your Profile
                                 </button>
